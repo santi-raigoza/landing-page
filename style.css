@@ -67,7 +67,7 @@ a {
 
 .sign-in-button {
     background-color: #3882F6;
-    border-radius: 10%;
+    border-radius: 5px;
     color: #F9FAF8;
     padding: 2px 20px;
     border: none;
@@ -145,10 +145,45 @@ a {
 }
 
 .cta-container {
-    width: 800px;
+    display: flex;
+    width: 520px;
     height: 150px;
     background-color: #3882F6;
     border-radius: 10px;
+    padding: 0px 100px;
+    align-items: center;
+}
+
+.cta-info,
+.cta-button {
+    color: #F9FAF8;
+}
+
+.cta-info {
+    flex: 1;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 2px 20px;
+}
+
+.cta-button-container {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.cta-description {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.cta-h3 {
+    margin: 0 0 5px 0;
 }
 
 .footer {
