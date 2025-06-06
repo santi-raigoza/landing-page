@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.header,
+.info,
+.quote,
+.call-to-action{
+    flex: 1;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: #F9FAF8;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-child,
+.header-img {
+    flex: 1;
+}
+
+.sign-in-button {
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: #F9FAF8;
+    padding: 2px 20px;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    flex: 0.25;
+    color: #F9FAF8;
+}
